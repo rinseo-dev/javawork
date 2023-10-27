@@ -2,10 +2,10 @@ package com.addinedu.model.vo2;
 
 public class Book {
 	
-	public String title;
-	public int price;
-	public double discountRate;
-	public String author;
+	private String title;
+	private int price;
+	private double discountRate;
+	private String author;
 	
 	public Book(){
 		

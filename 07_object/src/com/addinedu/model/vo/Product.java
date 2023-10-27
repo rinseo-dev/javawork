@@ -2,11 +2,11 @@ package com.addinedu.model.vo;
 
 public class Product {
 	//필드
-	public String productId;
-	public String productName;
-	public String productArea;
-	public int price;
-	public double tax;
+	private String productId;
+	private String productName;
+	private String productArea;
+	private int price;
+	private double tax;
 	
 	//생성자
 	public Product(){

@@ -18,9 +18,10 @@ public class BookTest {
 		bk2.setAuthor("이큐엘");
 		System.out.println(bk2.information());
 
-		System.out.println("할인된 가격 = "+(bk1.price-(bk1.price*bk1.discountRate)));
+		//getter로 값 가져오기
+		System.out.println("할인된 가격 = "+(bk1.getPrice()-(bk1.getPrice()*bk1.getDiscountRate())));
 		
-		System.out.println("할인된 가격2 = "+(bk2.price-(bk2.price*bk2.discountRate)));
+		System.out.println("할인된 가격2 = "+(bk2.getPrice()-(bk2.getPrice()*bk2.getDiscountRate())));
 	}
 
 }

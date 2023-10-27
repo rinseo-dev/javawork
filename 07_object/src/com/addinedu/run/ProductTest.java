@@ -13,7 +13,7 @@ public class ProductTest {
 		pd1.setTax(0.05);
 		
 		System.out.println(pd1.information());
-		System.out.println("부가세 포함 가격 = "+(pd1.price+(pd1.price*pd1.tax)));
+		System.out.println("부가세 포함 가격 = "+(pd1.getPrice()+(pd1.getPrice()*pd1.getTax())));
 	}
 
 }
