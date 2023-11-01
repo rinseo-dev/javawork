@@ -14,4 +14,5 @@ public abstract class Pet {
 	//추상메서드 : 선언부만 있고 실행부분이 없는 메서드
 	public abstract void sound();
 	public abstract void pattern();
+	
 }

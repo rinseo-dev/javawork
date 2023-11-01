@@ -1,6 +1,9 @@
 package interface03;
 
 public interface RemoteControl {
+	//인터페이스에선 추상메서드를 사용함. 변수를 사용할 수 없음. 변경되는 값 못씀
+	//다른 곳에서 인터페이스의 내용에 접은할 수 있도록 public으로 작성됨.
+	
 	//interface에 들어가는 것은 모두 상수
 	//상수
 	public static final int MAX_VOLUME = 100; //final은 선언할 때 값을 넣어줘야함.
@@ -12,6 +15,9 @@ public interface RemoteControl {
 	//public abstract를 붙이지 않으면 컴파일시 자동으로 붙인다
 	void turnOff();
 	void setVolume(int volume);
+	
+	//원래는 아래처럼 메서드 구문이 추가되면 전체 수정이 필요했음.
+	//void setMute(boolean mute); 이게 jdk1.8버전부터 다른 방식으로 활용되는것.
 	
 	//메서드 값을 추가하면 기존에 작성된 파일들(Tv,Audio.java)에서 재정의 다시 해줘야함.
 	//이 때 default로 접근제한자를 지정해주고 실행부분{}을 지정하는 방법을 사용함. 전부 수정해주지 않아도 됨.

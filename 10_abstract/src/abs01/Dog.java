@@ -12,6 +12,8 @@ public class Dog extends Pet {
 		super("강아지", color);
 	}
 
+	//sound(),patter()을 넣지 않으면 오류 발생. 
+	
 	//추상메서드는 반드시 오버라이딩하여 구현해야 한다
 	//만약 구현내용이 없으면 빈 채로 놔두어도 된다
 	@Override

@@ -21,6 +21,7 @@ public class Buyer03 { //<Object> 를 사용하면 자동으로 extends Object�
 		bonusPoint += p.bonusPoint;
 		aList.add(p);//proList[count++] = p;이렇게 배열에 넣었던 걸 ArrayList에 넣음.
 		//ArrayList는 배열 안에 내 앞,뒤 객체의 주소를 갖고 있음
+		//p는 내가 넣을 때 객체..?
 		
 		System.out.println(p + " 구입");
 	}
