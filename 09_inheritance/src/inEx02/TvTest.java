@@ -1,5 +1,6 @@
 package inEx02;
 
+//얘제좀 풀어주셈
 public class TvTest {
 
 	public static void main(String[] args) {

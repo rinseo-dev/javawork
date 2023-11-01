@@ -13,6 +13,8 @@ class C extends B{//클래스B를 상속받은 클래스C
 	int cc = 3;//cc,bb,aa모두 사용가능
 }
 
+//cc라는 객체를 생성하면 메모리에 aa,bb,cc의 공간이 모두 생성됨.
+
 //상속은 1개만 가능함. A->B->C형태르 C가 받는 것은 가능하지만
 //class C extends B extends A{}는 불가능함.
 

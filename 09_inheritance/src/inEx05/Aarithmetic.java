@@ -1,5 +1,6 @@
 package inEx05;
 
+//예제좀 풀어주셈
 public class Aarithmetic {
 	private int num = 30;
 	private int num2 = 20;
@@ -22,7 +23,7 @@ public class Aarithmetic {
 			System.out.println("y값"+y+"가 더 큽니다");
 		}
 		
-		return MaxNum;
+		return 2;
 	}
 	
 	//int EvenSum(int, int) {//int(start)~int(end)까지 숫자 중 짝수의합(2의 배수)만 합하기

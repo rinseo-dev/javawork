@@ -18,7 +18,7 @@ class Child2 extends Parent2{
 	}//부모것만 쓰겠다면 오버라이딩을 할 필요가 없음. 자식걸 쓴다면 선언해줘야하는 것.
 	
 	void method() {
-		display();//Child2에 있는 display()를 호출함.
+		display();//Child2(내가 가지고 있는)에 있는 display()를 호출함.
 		super.display();//Parent2가 갖고 있는 display()메소드를 호출함
 		
 		System.out.println("Child2클래스의 x = " +this.x);
