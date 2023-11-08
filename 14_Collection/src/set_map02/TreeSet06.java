@@ -5,6 +5,10 @@ import java.util.TreeSet;
 public class TreeSet06 {
 
 	public static void main(String[] args) {
+		
+		//Tree가 붙으면 sort가 된 상태로 값이 들어감 - Tree구조
+		//출력도 순서대로 됨.
+		
 		TreeSet<Integer> scores = new TreeSet<>();
 		scores.add(87);
 		scores.add(100);

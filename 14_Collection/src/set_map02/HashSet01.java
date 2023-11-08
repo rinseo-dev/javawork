@@ -12,6 +12,7 @@ public class HashSet01 {
 		
 		//부모의 자료형인 Set에 new HashSet
 		Set set1 = new HashSet();//import 둘 다 util이라 util.*가능
+		//Set은 중복값을 두지 않고, Map은 키+값을 모두 저장(?)
 		/*
 		아래처럼 값을 넣을 걸 for문으로 돌릴 것
 		set1.add(objArr[0]);

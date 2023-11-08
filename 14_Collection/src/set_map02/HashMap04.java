@@ -37,6 +37,7 @@ public class HashMap04 {
 	static void mapPrint(Map<Integer,String> map) { //String,Double로 만들면 map2
 		Set<Integer> keyset = map.keySet(); //key를 가져와서 set에 담음
 		Iterator<Integer> keyIterator = keyset.iterator();
+		//Iterator를 사용해야 키+값을 동시에 넣어서 키+값을 출력할 수 있음.
 		while(keyIterator.hasNext()) {
 			int key = keyIterator.next();
 			String value = map.get(key);
